@@ -1,0 +1,15 @@
+{
+  "name": "pa4gent",
+  "version": "1.0.0",
+  "description": "PA for a Gent - Personal Assistant for accounting",
+  "main": "index.html",
+  "scripts": {
+    "build": "tailwindcss -i ./src/input.css -o ./dist/output.css --minify",
+    "watch": "tailwindcss -i ./src/input.css -o ./dist/output.css --watch"
+  },
+  "devDependencies": {
+    "tailwindcss": "latest",
+    "autoprefixer": "latest",
+    "postcss": "latest"
+  }
+}
